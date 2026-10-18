@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#080b10">
+  <title>Netflix Token Dashboard</title>
+  <link rel="stylesheet" href="/style.css">
+</head>
+<body>
+  <main class="dashboard">
+    <div class="logo">N<span>F</span></div>
+    <p class="eyebrow">API CONTROL PANEL</p>
+    <h1>Netflix <span>Dashboard</span></h1>
+    <p class="description">
+      Dashboard status koneksi API dengan tampilan modern.
+    </p>
+
+    <section class="panel">
+      <div class="panel-heading">
+        <span>Status provider</span>
+        <span id="indicator" class="indicator"></span>
+      </div>
+
+      <h2 id="status">Belum diperiksa</h2>
+      <p id="message">Tekan tombol untuk memeriksa koneksi.</p>
+
+      <button id="checkButton">Periksa koneksi API</button>
+      <p class="footnote">
+        API key dan token tidak ditampilkan di halaman ini.
+      </p>
+    </section>
+
+    <footer>NETFLIX TOKEN DASHBOARD · 2026</footer>
+  </main>
+
+  <script src="/script.js"></script>
+</body>
+</html>

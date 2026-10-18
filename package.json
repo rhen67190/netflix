@@ -1,0 +1,12 @@
+{
+  "name": "netflix-token-dashboard",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "vercel dev"
+  },
+  "dependencies": {
+    "vercel": "^48.0.0"
+  }
+}
